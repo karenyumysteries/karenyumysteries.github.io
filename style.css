@@ -1,0 +1,35 @@
+html {
+    margin: auto;
+}
+
+body {
+    display: grid;
+    text-align: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul {
+  list-style: none;
+}
+
+.case-files {
+    text-align: left;
+}
+
+.middle {
+    text-align: left;
+}
+
+.archives {
+    text-align: left;
+}
