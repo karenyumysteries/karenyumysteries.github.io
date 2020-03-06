@@ -3,8 +3,18 @@ html {
 }
 
 body {
+    margin: 5vh 15vw;
     display: grid;
     text-align: center;
+    justify-items: center;
+}
+
+#intro {
+    text-align: left;
+    border: 1px solid #242486;
+    color: #242486;
+    padding: 1vw;
+    background-color: #5fd491;
 }
 
 .nav-menu {
@@ -15,21 +25,36 @@ body {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+/*    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
 }
 
 ul {
-  list-style: none;
+    list-style: none;
+    padding: 0;
+
 }
 
-.case-files {
+.middle-col {
     text-align: left;
+    margin: 2vw;
 }
 
-.middle {
-    text-align: left;
+footer {
+    
 }
 
-.archives {
-    text-align: left;
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-blurb {
+    max-width: 400px;
+    
+}
+
+#glass_a {
+    transform:rotateY(180deg);
 }
