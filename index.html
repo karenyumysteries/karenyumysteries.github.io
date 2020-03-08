@@ -7,39 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body>   
     <header>
-        <hl></hl>
-        <img src="media/magnifying_glass.png" alt="magnifying glass" id="glass_a"><img src="media/karen_yu.png" alt="Karen Yu"><img src="media/magnifying_glass.png" alt="magnifying glass">
+        <div id="hrs"><hr id="hr1"><hr id="hr2"></div>
+        <div class="title"><img src="media/magnifying_glass.png" alt="magnifying glass" id="glass_a"><img src="media/karen_yu.png" alt="Karen Yu"><img src="media/magnifying_glass.png" alt="magnifying glass"></div>
         <p id="intro"><strong>WELCOME</strong> to my web site! Here you can find out about me and the various locked room and other 'impossible' cases I have worked on over the past few years --Karen.</p>
     </header>
     <main>
-        <div>SCROLLING AD</div>
+        <div id="ad">SCROLLING AD</div>
         <nav>
             <ul class="nav-menu">
-                <li>IMAGE</li>
-                <li>Home page</li>
-                <li>IMAGE</li>
-                <li>Search</li>
-                <li>IMAGE</li>
+                <li><img src="media/new.png" alt="new"></li>
+                <li><a href="">Home page</a></li>
+                <li><img src="media/question_mark.png" alt="question mark" id="question"></li>
+                <li><a href="">Search</a></li>
+                <li><img src="media/new.png" alt="new"></li>
             </ul>
         </nav>
         <div class="main-grid">
             <section class="case-files middle-col">
-                <h2>Case files</h2>
-                <ul>
-                    <li><a href="">1991: The Problem of the Panelled Room</a></li>
-                    <li><a href="">1991: How to Catch a Ghost</a></li>
-                    <li><a href="">1992: The Gemini Incident</a></li>
-                    <li><a href="">1993: A Shriek From the Sky</a></li>
-                </ul>
+                <img src="media/case_files.png" alt="Case files" id="middle-col-img">
+                <div class="middle-col-content">
+                    <ul>
+                        <li><a href="">1991: The Problem of the Panelled Room</a></li>
+                        <br>
+                        <li><a href="">1991: How to Catch a Ghost</a></li>
+                        <br>
+                        <li><a href="">1992: The Gemini Incident</a></li>
+                        <br>
+                        <li><a href="">1993: A Shriek From the Sky</a></li>
+                    </ul>
+                </div>
             </section>
             <section class="middle middle-col">
-                <div>
-                    <h3>What's New?</h3>
+                <div class="whats-new">
+                    <div id="new-img"><img src="media/whats_new.png" alt="What's new?"></div>
+                    <div id="new-text"><h3>What's New?</h3>
                     <p>Check out the latest updates to the web site</p>
+                    </div>
                 </div>
-                <div>
+                <div class="about-me">
                     <h3>About Me</h3>
                     <p>Find out how I became involved in the sordid business of sleuthing!</p>
                 </div>
@@ -49,26 +56,32 @@
                 </div>
             </section>
             <section class="archives middle-col">
-                <h2>From the archives...</h2>
-                <p>Here you can find out about others who have confronted seemingly insoluble mysteries.</p>
-                <ul>
-                    <li>Roanoke Adams</li>
-                    <li>Sam Chung & Patrick Reddy</li>
-                </ul>
+                <img src="media/archives.png" alt="From the archives" id="middle-col-img">
+                <div class="middle-col-content">
+                    <p id="archives-intro">Here you can find out about others who have confronted seemingly insoluble mysteries.</p>
+                    <ul>
+                        <li><a href="">Roanoke Adams</a></li>
+                        <br>
+                        <li><a href="">Sam Chung & Patrick Reddy</a></li>
+                    </ul>
+                </div>
             </section>
         </div>
-        <button>CLICK ME!</button>
+        <button>CLICK HERE</button>
     </main>
     <footer>
+<!--
         <div>
             <ul class="footer-links">
-                <li><a>Home page</a></li>
-                <li><a>Contact</a></li>
-                <li><a>Test</a></li>
+                <li id="link"><a>Home page</a></li>
+                <li id="link"><a>Contact</a></li>
+                <li id="link"><a>Test</a></li>
             </ul>
         </div>
+-->
         <div class="footer-blurb">Last updated 7th November 1997.<br>Web design by CW Technologies.<br>This site has been optimised for Netscape 3.0 or above and Internet Explorer 4.0 and above.<br>Copyright (c) 1995-1997 Karen Yu. All rights reserved.</div>
-        <hl></hl>
+        <div id="hrs"><hr id="hr2">
+            <hr id="hr1"></div>
     </footer>
     <script src=""></script>
 </body>
