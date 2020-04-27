@@ -3,7 +3,7 @@ body {
     display: grid;
     text-align: center;
     justify-items: center;
-    background-image: url(media/background.png);
+    background-image: url(media/backgrounds/home_background.png);
 }
 
 #hrs {
