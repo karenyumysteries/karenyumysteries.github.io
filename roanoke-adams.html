@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: blue;
+            display: grid;
+            grid-template-columns: 25% 65% 10%;
+            grid-template-rows: repeat(2, );
+            line-height: 1.8rem;
+        }
+    
+        header {
+            grid-column: 1 / 3;
+            grid-row: 1;
+            background-color: black;
+        }
+        
+        nav {
+            grid-column: 3;
+            grid-row: 1 / 3;
+            background-color: #bce877;
+            text-transform: uppercase;
+            padding: 0.5rem;
+            border: 3px solid #f896a7;
+        }
+        
+        aside {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: black;
+            color: white;
+            padding: 0.5rem;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .container {
+            grid-column: 2;
+            grid-row: 2;
+            position: relative;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        
+        .blurb {
+            position: absolute;
+            text-align: left;
+            font-size: 20px;
+            top: 8px;
+            left: 16px;
+            margin: 10px;
+        }
+        
+        nav > ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            padding: 0.3rem 0;
+        }
+    
+    </style>
+    <title>Karen Yu - Roanoke Adams</title>
+</head>
+
+<body>
+    <header><img src="media/images/Roanoke_Adams_header.png" alt="Roanoke Adams"></header>
+    <nav>
+        <p>Menu:</p>
+        <ul>
+            <li><a href="index.html">Home page</a></li>
+            <li><a href="whats-new.html">What's new?</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="under-construction.html">Search the web-site</a></li>
+            <li><a href="index.html">Home-page</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <h2 style="text-transform: uppercase; font-family: sans-serif">Roanoke Adams Mysteries:</h2>
+        <ul>
+            <li>Death in D Minor</li>
+            <li>The Riddle of Henry Hughes</li>
+            <li>The Beast of Bow</li>
+            <li>Into the Nightmare Mountains</li>
+        </ul>
+    </aside>
+    <section class="container">
+        <img src="media/images/Roanoke_Adams_picture.png" alt="Black and white picture of 1920s city street at night with large illuminated adverts on the sides of several of the buildings.">
+        <div class="blurb">
+        Today he’s all but forgotten, but back in the 1920s and 30s Roanoke Adams was the amateur detective, solving some of the most audacious and fiendish crimes ever committed. From locked room murders to bilocation to ancient curses, journey back to the golden age of sleuthing with these classic mysteries.
+        </div>
+    </section>
+</body>
+</html>
