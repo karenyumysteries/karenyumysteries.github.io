@@ -6,6 +6,11 @@ body {
     background-image: url(media/backgrounds/home_background.png);
 }
 
+h1 {
+    color: darkblue;
+    font-style: italic;
+}
+
 #hrs {
     background-color: white;
     margin: 2vh 0;
@@ -113,6 +118,10 @@ ul {
     list-style: none;
     padding: 0;
 
+}
+
+ol {
+    text-align: left;
 }
 
 .middle-col {
