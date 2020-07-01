@@ -1,24 +1,30 @@
 body {
     background-color: blue;
+    line-height: 1.8rem;
+}
+
+.container {
     display: grid;
     grid-template-columns: 25% 65% 10%;
-    grid-template-rows: repeat(2, );
-    line-height: 1.8rem;
+    grid-template-rows: repeat(3, );
+    margin: 0 10%;
 }
 
 header {
     grid-column: 1 / 3;
     grid-row: 1;
-    background-color: black;
 }
 
 nav {
     grid-column: 3;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     background-color: #bce877;
     text-transform: uppercase;
     padding: 0.5rem;
     border: 3px solid #f896a7;
+    text-align: left;
+    color: yellow;
+    min-width: 70px;
 }
 
 aside {
@@ -30,16 +36,15 @@ aside {
 }
 
 img {
-    width: 100%;
+/*    width: 100%;*/
 }
 
-.container {
+.blurb-container {
     grid-column: 2;
     grid-row: 2;
     position: relative;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: white; 
 }
 
 .blurb {
@@ -56,6 +61,15 @@ nav > ul {
     padding-left: 0;
 }
 
+ul {
+    text-align: left;
+}
+
 li {
     padding: 0.3rem 0;
+}
+
+#house-img {
+    grid-column: 1 / 3;
+    padding: 20px 50px 0 0;
 }
