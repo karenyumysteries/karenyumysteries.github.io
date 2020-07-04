@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html lang="">
-<body>
-  <audio controls>
-    <source src="media/audio/Karen_Yu.mp3" type="audio/mp3">
-  </audio>
-  <p>Can I have my lunch break now, Karen?</p>
-</body>
-</html>
