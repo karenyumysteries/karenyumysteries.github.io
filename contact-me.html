@@ -29,6 +29,28 @@
     font-family: Impact, sans-serif;
     color: white;
     }
+  .left-column {
+      height: 200px;
+      width: 200px;
+      padding-top: 200px;
+      font-family: "Comic Sans MS", sans-serif;
+      max-width: 100%;
+    }
+    .main-grid {
+      display: grid;
+      grid-template-columns: 150px 300px 150px;
+    }
+    .right-column {
+        max-width: 100px;
+        text-align: center;
+        padding-left: 15px;
+    }
+    #mag-glass-2 {
+        max-width: 100%;
+    }
+    #indian-poster {
+        max-width: 100%;
+    }
 </style>
 <title>Karen Yu - Contact me!</title>
 </head>
@@ -36,20 +58,26 @@
 <body>
     <audio src="media/audio/Telstar_style.mp3" type="audio/mp3" autoplay loop >
     </audio>
-    <div>
-  <p class="home-link"><a href="index.html">Take me back home!</a></p>
-</div>
-<div>
-  <h1>Contact me!</h1>
-</div>
-<div>
-  <body>
-  <p class="intro">If you think you’ve encountered a mystery you can’t explain then you can get in touch with me using this e(lectronic)-form. However, a few disclaimers:</p>
-  <ul class="list">
-    <li>If you are reporting a crime, <em>report it to the police</em>. I am not a police officer and I am not affiliated with the police. Despite what you might have read in a Carlton Lindrick mystery, the police don’t allow plucky amateur sleuths to tag along when investigating crimes. It just doesn’t happen. Trust me.</li>
-    <li>If you’re trying to prank me, don’t. I <u>will</u> sniff you out and I <u>will</u> make you look foolish. You have been warned.</li>
-    <li>Any complaints, send to Charlie.</li>
-  </ul>
+    <main class="main-grid">
+      <section class="left-column">
+        <p><a href="code.html">Click this</a></p>
+        <br>
+        <img src="Graphic - Question mark.png" alt="question mark">
+      </section>
+      <section>
+      <p class="intro">If you think you’ve encountered a mystery you can’t explain then you can get in touch with me using this e(lectronic)-form. However, a few disclaimers:</p>
+      <ul class="list">
+        <li>If you are reporting a crime, <em>report it to the police</em>. I am not a police officer and I am not affiliated with the police. Despite what you might have read in a Carlton Lindrick mystery, the police don’t allow plucky amateur sleuths to tag along when investigating crimes. It just doesn’t happen. Trust me.</li>
+        <li>If you’re trying to prank me, don’t. I <u>will</u> sniff you out and I <u>will</u> make you look foolish. You have been warned.</li>
+        <li>Any complaints, send to Charlie.</li>
+      </section>
+      <section class="right-column">
+        <img src="Graphic - magnifying glass 2.png" alt="magnifying glass 2" id="mag-glass-2">
+        <br>
+        <img src="Graphic - Indian poster.gif" alt="indian poster" id="indian-poster">
+      </section>
+      </ul>
       </div>
+    </main>
 </body>
 </html>
