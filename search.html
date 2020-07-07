@@ -1,7 +1,98 @@
 <!DOCTYPE html>
-<body>
-  <style>
-  </style>
-  <p><b>Welcome</b> to the web-site search-page! This is the "page" to be if you're looking for something specific. Simply e-select your search terms to see what relevant documents we have on the (web)site.</p>
+<style>
+  .body {
+    background-color: darkred;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 500px 150px;
+    grid-template-rows: 150px auto auto;
+    max-width: fit-content;
+  }
+  .text {
+      font-family: "Comic Sans MS", sans-serif;
+      font-size: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: whitesmoke;
+  }
+  .grid-item-2 {
+      grid-column: 2;
+      grid-row: 1 / span 3;
+      border: 4px solid fuchsia;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+      text-align: left;
+  }
+  .grid-item-3 {
+      font-weight: bold;
+      background-color:lightgray;
+      margin-left: 50px;
+      margin-right: 200px;
+      padding-left: 10px;
+  }
+  .button {
+      background-color: green;
+      color: lawngreen;
+      margin-top: 30px;
+      margin-left: 180px;
+  }
+  #panda {
+      padding-left: 20px;
+      padding-top: 10px;
+  }
+  #investigator-list {
+      font-family: 'Times New Roman', Times, serif
+  }
+  #topic-list {
+      font-family: 'Times New Roman', Times, serif
+  }
+</style>
+<body class="body">
+  <div class="grid-item-1">
+    <img src="search-header.gif" alt="searcher header">
+    <img src="Graphic - Magnifying glass.png">
+    <img src="Graphic - Question mark.png">
+  </div>
+  <div class="grid-item-2">
+    <ul style="list-style: none;">
+        <li><a href="index.html">Home page</a></li>
+        <br>
+        <li><a href="contact-me.html>Contact</a></li>
+        <br>
+        <li><a href="about-me.html>About me</a></li>
+        <br>
+        <li><a href="whats-new">What's new?</a></li>
+        <br>
+        <li><a href="search.html>Search</a></li>
+        <br>
+        <li><a href="index.html>Exit</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="text"><b>Welcome</b> to the web-site search-page! This is the "page" to be if you're looking for something specific. Simply e-select your search terms to see what relevant documents we have on the (web)site.</p>
+  </div>
+  <div class="grid-item-3">
+      <h2> Investigator</h2>
+      <select id="investigator-list">
+        <option value = "1">Karen Yu</option>
+        <option value = "2">Roanoke Adams</option>
+        <option value = "3">Sam Chung and Patrick Reddy</option>
+      </select>
+      <br>
+      <h2> Topic</h2>
+      <select id="topic-list">
+        <option value = "1">Impossible crimes</option>
+        <option value = "2">Miracles</option>
+        <option value = "3">UFOs</option>
+        <option value = "4">Monsters and ghosts</option>
+        <option value = "5">Curses</option>
+      </select>
+      <br>
+      <br>
+  </div>
 </body>
+<footer>
+  <button class="button"><em><a href="search-failed.html">Search!</a></em></button>
+  <img src="panda.png" alt="panda" id="panda">
+</footer>
 </html>
