@@ -58,7 +58,7 @@ h1 {
     height: 100%;
     margin: 0;
     line-height: 40px;
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
@@ -172,7 +172,7 @@ ol {
 }
 
 #archives-intro {
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 .bottom-bit {
